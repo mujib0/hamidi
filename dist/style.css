@@ -1,0 +1,97 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  text-align:center;
+  justify-content:space-around;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+header{
+  top:0; left:0;
+  height:100%;
+  width:300px;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-flow:column;
+  text-align:center;
+}
+header .user img{
+  height:17rem;
+  width:17rem;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:1rem;
+  border:.7rem solid var(--yellow);
+ 
+}
+
+img{
+  width:100px;
+    diaplay:felx;
+  justify-content:space-around;
+}
+#fact{
+  width: 250px;
+  font-weight: 500;
+}
+#fact{
+  padding-top:50px;
+  padding-bottom:50px;
+  flex-direction:center;
+}
+
+#fact img{
+  width:200px;
+  border-radius:150%;
+
+
+  
+}
+.card{
+  margin: 0 100px;
+    padding: 100px;
+    display: flex
+    justify-content:space-around;
+    width: 400px;
+    margin-left:100px;
+    margin-right:auto;
+    text-align: center
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+.wrapper{
+  margin: 0 auto;
+  width:1000px;
+}
+
+videowrapper{
+  position:relative;
+  padding-bottom:65%
+  padding-top:25px
+  height:0px;
+  
+}
+
+.videowrapper iframe{
+  position:absolute;
+  left:0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  widht: 100%;
+}
